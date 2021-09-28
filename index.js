@@ -40,12 +40,25 @@ for (var i= 0; i <= limit; i++){
 }
 
 //6 REVERSE
-var sentence="Hello Konexio !"
-for(var i=0; i <= sentence; i--){
-    console.log(i)
-}
+var sentence = "Hello Konexio !"
+ var inverse = ""
+ for (var i = sentence.length - 1; i>= 0; i--) {
+    inverse = inverse + sentence[i]
+ } 
+ console.log(inverse)
 
 //BONUS 
+for (var i = 0; i <= 100; i++){
+    if (i % 3 == 0 && i % 5==0){
+        console.log(i,"fizzbuzz")
+    }
+      else if (i % 5 == 0){
+          console.log(i, "buzz")
+      }
+      else if (i % 3 ==0 ){
+        console.log(i, "fizz")
+    }
+  }
 
 //BONUS 2
 var total=0
