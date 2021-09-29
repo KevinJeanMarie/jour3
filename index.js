@@ -61,12 +61,12 @@ for (var i = 0; i <= 100; i++){
   }
 
 //BONUS 2
+
 var total=0
 var limit=10
-while (total <= limit){
-    total++
+while (total < limit){
+    total++;
+    total + i
+    console.log(i)
     console.log(total)
-
-//BONUS 3
-var konexio=["vincent","syrine","rebecca","kevin","karimou","chaima","marco","salwa",
-"hana","evan","edouard","bilal","alin","ahmed","helene","jeremy","jong","severin"]
+}
